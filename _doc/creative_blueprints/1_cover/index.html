@@ -1,0 +1,45 @@
+<style>
+  .mode-landscape .sl-layout { flex-direction: row; }
+  .mode-portrait .sl-layout { flex-direction: column; }
+  .mode-landscape .sl-left { width: 54%; }
+  .mode-portrait .sl-left { flex: 1; width: 100%; }
+  .mode-landscape .sl-right { width: 46%; }
+  .mode-portrait .sl-right { width: 100%; height: 42%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout flex h-full">
+
+    <!-- Left: Content -->
+    <div class="sl-left flex flex-col justify-between p-12 bg-white">
+      <div class="flex flex-col gap-6">
+        <span class="inline-block bg-indigo-100 text-indigo-700 text-xs font-bold tracking-widest uppercase px-4 py-1.5 rounded-full w-fit border border-indigo-200">
+          For Tertiary Students
+        </span>
+        <div class="flex flex-col gap-3">
+          <p class="text-xs font-black text-indigo-700 tracking-widest uppercase">Uptime</p>
+          <h1 class="text-5xl font-black text-slate-900 leading-none tracking-tight">
+            Never Miss<br>a Class<br><span class="text-indigo-600">Again.</span>
+          </h1>
+        </div>
+        <p class="text-sm text-slate-500 leading-relaxed max-w-xs">
+          Smart timetable, dual alarm reminders, study timers, and daily motivational words — everything a campus student needs to stay on time and on track.
+        </p>
+      </div>
+      <div>
+        <div class="w-10 h-0.5 bg-indigo-300 mb-4 rounded-full"></div>
+        <data-attribution />
+      </div>
+    </div>
+
+    <!-- Right: Visual -->
+    <div class="sl-right relative overflow-hidden">
+      <img
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=Smiling%20university%20student%20confidently%20checking%20a%20colorful%20class%20timetable%20on%20a%20smartphone%2C%20bright%20modern%20campus%20corridor%2C%20warm%20morning%20sunlight%2C%20vibrant%20and%20motivated%20mood%2C%20editorial%20photo%20style"
+        alt="Student using Uptime"
+        class="w-full h-full object-cover object-top"
+      />
+      <div class="absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-white to-transparent pointer-events-none"></div>
+    </div>
+
+  </div>
+</section>
