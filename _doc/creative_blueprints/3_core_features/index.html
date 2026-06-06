@@ -1,0 +1,74 @@
+<style>
+  .mode-landscape .sl-grid { grid-template-columns: repeat(2, 1fr); }
+  .mode-portrait .sl-grid { grid-template-columns: 1fr; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-10 gap-5">
+
+    <!-- Header -->
+    <div class="flex flex-col gap-3">
+      <div class="flex items-center gap-3">
+        <span class="bg-indigo-600 text-white text-xs font-bold tracking-wider uppercase px-4 py-1.5 rounded-full">University Student</span>
+        <span class="text-xs text-slate-400 font-medium">Tertiary Campus</span>
+      </div>
+      <h2 class="text-3xl font-black text-slate-900 leading-tight">Everything you need to own your campus schedule.</h2>
+    </div>
+
+    <!-- Feature Grid -->
+    <div class="sl-grid grid gap-4 flex-1">
+
+      <!-- Timetable Setup -->
+      <div class="bg-indigo-600 rounded-2xl p-6 flex flex-col gap-3">
+        <div class="w-10 h-10 bg-white/20 rounded-xl flex items-center justify-center flex-shrink-0">
+          <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+          </svg>
+        </div>
+        <div>
+          <p class="text-base font-bold text-white">Timetable Setup</p>
+          <p class="text-xs text-indigo-200 mt-1 leading-relaxed">Build your complete weekly class schedule — courses, lecture times, venues, and days — in one clean, intuitive view.</p>
+        </div>
+      </div>
+
+      <!-- Alarm Reminders -->
+      <div class="bg-white rounded-2xl p-6 flex flex-col gap-3 border border-slate-100 shadow-sm">
+        <div class="w-10 h-10 bg-indigo-100 rounded-xl flex items-center justify-center flex-shrink-0">
+          <svg class="w-5 h-5 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/>
+          </svg>
+        </div>
+        <div>
+          <p class="text-base font-bold text-slate-900">Alarm Reminders</p>
+          <p class="text-xs text-slate-500 mt-1 leading-relaxed">Ringtone alerts fire automatically <strong class="text-slate-700">1 hour and 30 minutes</strong> before every class — so you're never caught off guard again.</p>
+        </div>
+      </div>
+
+      <!-- Study Timers -->
+      <div class="bg-white rounded-2xl p-6 flex flex-col gap-3 border border-slate-100 shadow-sm">
+        <div class="w-10 h-10 bg-cyan-100 rounded-xl flex items-center justify-center flex-shrink-0">
+          <svg class="w-5 h-5 text-cyan-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+          </svg>
+        </div>
+        <div>
+          <p class="text-base font-bold text-slate-900">Study Timers</p>
+          <p class="text-xs text-slate-500 mt-1 leading-relaxed">Set focused countdown sessions for tests and exam prep. Stay locked in, track progress, and build the discipline to perform when it counts.</p>
+        </div>
+      </div>
+
+      <!-- Word of the Day -->
+      <div class="bg-gradient-to-br from-cyan-500 to-indigo-600 rounded-2xl p-6 flex flex-col gap-3">
+        <div class="w-10 h-10 bg-white/20 rounded-xl flex items-center justify-center flex-shrink-0">
+          <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+          </svg>
+        </div>
+        <div>
+          <p class="text-base font-bold text-white">Word of the Day</p>
+          <p class="text-xs text-cyan-100 mt-1 leading-relaxed">Every app open greets you with a curated motivational message — setting a positive tone before every class, study session, or exam.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
